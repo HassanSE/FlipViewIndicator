@@ -1,0 +1,68 @@
+﻿<Page xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:FlipViewIndicator"
+      xmlns:vms="using:FlipViewIndicator.ViewModel"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:Converter="using:FlipViewIndicator.Converter"
+      x:Class="FlipViewIndicator.MainPage"
+      mc:Ignorable="d">
+
+    <Page.Resources>
+        <Converter:VisibleWhenTrueConverter x:Key="VisibleWhenTrueConverter" />
+    </Page.Resources>
+
+    <Page.DataContext>
+        <vms:MainViewModel />
+    </Page.DataContext>
+
+    <Grid x:Name="grid"
+          Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <FlipView x:Name="fvColors"
+                  Margin="20"
+                  ItemsSource="{Binding Colors}"
+                  SelectedItem="{Binding SelectedColor, Mode=TwoWay}">
+            <FlipView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Background="{Binding Brush}" />
+                </DataTemplate>
+            </FlipView.ItemTemplate>
+        </FlipView>
+
+        <ItemsControl HorizontalAlignment="Center"
+                      VerticalAlignment="Bottom"
+                      ItemsSource="{Binding Colors}"
+                      Margin="0,50">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Horizontal" />
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Button Style="{StaticResource TextBlockButtonStyle}"
+                            Command="{Binding DataContext.IndicatorTapCommand, ElementName=grid, Mode=OneWay}"
+                            CommandParameter="{Binding }">
+                        <Grid Height="30"
+                              Width="30"
+                              Margin="10,10">
+                            <Ellipse Fill="Black"
+                                     RenderTransformOrigin="0.5,0.5"
+                                     Visibility="{Binding IsSelected, Converter={StaticResource VisibleWhenTrueConverter}}">
+                                <Ellipse.RenderTransform>
+                                    <CompositeTransform ScaleX="1.25"
+                                                        ScaleY="1.25" />
+                                </Ellipse.RenderTransform>
+                            </Ellipse>
+                            <Ellipse Fill="{Binding Brush}"
+                                     Stroke="Black" />
+                        </Grid>
+                    </Button>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+    </Grid>
+
+</Page>
+

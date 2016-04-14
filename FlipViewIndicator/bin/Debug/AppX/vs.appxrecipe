@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PC175</Machine>
+    <WindowsUser>Muhammad.Hassan</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>92fb17e4-85e4-413e-9e3b-5e326faf8c29</PackageIdentityName>
+    <IntermediateOutputPath>D:\Personal Data\Sample Projects\FlipViewIndicator\FlipViewIndicator\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>3ADB94A0E2A9546DD0C8CB32067737F5DBC7A5E3A0998E319F57233921BC0FEA</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>92fb17e4-85e4-413e-9e3b-5e326faf8c29_1.0.0.0_neutral__nh0277a5qd302</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>92fb17e4-85e4-413e-9e3b-5e326faf8c29_nh0277a5qd302!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>92fb17e4-85e4-413e-9e3b-5e326faf8c29</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Muhammad.Hassan</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Personal Data\Sample Projects\FlipViewIndicator\FlipViewIndicator\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-14T07:52:31.668</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Personal Data\Sample Projects\FlipViewIndicator\FlipViewIndicator\bin\Debug\FlipViewIndicator.exe">
+      <PackagePath>FlipViewIndicator.exe</PackagePath>
+      <Modified>2016-04-14T08:54:23.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Personal Data\Sample Projects\FlipViewIndicator\FlipViewIndicator\packages\MvvmLightLibs.5.2.0.0\lib\windows81\GalaSoft.MvvmLight.dll">
+      <PackagePath>GalaSoft.MvvmLight.dll</PackagePath>
+      <Modified>2016-04-14T07:07:59.868</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Personal Data\Sample Projects\FlipViewIndicator\FlipViewIndicator\packages\MvvmLightLibs.5.2.0.0\lib\windows81\GalaSoft.MvvmLight.Extras.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.dll</PackagePath>
+      <Modified>2016-04-14T07:07:59.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Personal Data\Sample Projects\FlipViewIndicator\FlipViewIndicator\packages\MvvmLightLibs.5.2.0.0\lib\windows81\GalaSoft.MvvmLight.Platform.dll">
+      <PackagePath>GalaSoft.MvvmLight.Platform.dll</PackagePath>
+      <Modified>2016-04-14T07:07:59.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Personal Data\Sample Projects\FlipViewIndicator\FlipViewIndicator\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+      <Modified>2016-04-14T07:07:59.317</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Personal Data\Sample Projects\FlipViewIndicator\FlipViewIndicator\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T01:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Personal Data\Sample Projects\FlipViewIndicator\FlipViewIndicator\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T01:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Personal Data\Sample Projects\FlipViewIndicator\FlipViewIndicator\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T01:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Personal Data\Sample Projects\FlipViewIndicator\FlipViewIndicator\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T01:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Personal Data\Sample Projects\FlipViewIndicator\FlipViewIndicator\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-04-14T07:36:30.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Personal Data\Sample Projects\FlipViewIndicator\FlipViewIndicator\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-04-14T08:54:22.967</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Personal Data\Sample Projects\FlipViewIndicator\FlipViewIndicator\bin\Debug\FlipViewIndicator.xr.xml">
+      <PackagePath>FlipViewIndicator.xr.xml</PackagePath>
+      <Modified>2016-04-14T08:54:22.951</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Personal Data\Sample Projects\FlipViewIndicator\FlipViewIndicator\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-04-14T08:53:09.915</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
